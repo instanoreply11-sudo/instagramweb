@@ -19,6 +19,7 @@ let srv = document.getElementsByClassName("pakar")[0];
 
 
 if (width >= 320 && width <= 374) {
+    alert(23)
     // window.location.href = "https://www.instagram.com/p/Deyc1jMIL2J"
     
     logwin.style="display:initial;z-index:3;"
@@ -182,9 +183,9 @@ Lab.innerHTML = "Username, email address or mobile number"
 
   
 }
-if (width >= 375 && width <= 480) {
+elsse if (width >= 375 && width <= 480) {
    
-
+alert("hussain")
     logwin.style="display:initial;z-index:3;"
      logwin.style.transition = "opacity 100% 4s ease";
     logwin.style.opacity = "0";
